@@ -6,10 +6,6 @@ class MartialResume extends Component {
     return (
       <section className="resume">
       <div className="res-type">SENSEI DAVID KLEIN </div>
-      <div className="res-title">OBJECTIVE</div>
-      <div className="res-info">
-        Seeking position as a Martial Arts instructor at Bring the Gym to Me.
-      </div>
       <div className="res-title">EDUCATION</div>
       <div className="res-info">
       Tora Dojo – First Degree Black Belt Brooklyn, New York <br/>

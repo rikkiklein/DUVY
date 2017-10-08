@@ -11,9 +11,10 @@ class Banner extends Component {
 					<div className="image avatar">
             <img src={image2} alt="" />
           </div>
-					<h1>David Klein</h1>
+					<h1>David Klein EIT</h1>
           <a><i className="fa fa-linkedin"></i></a>
           <a><i className="fa fa-envelope-o"></i></a>
+          <a><i className="fa fa-twitter"></i></a>
 				</div>
 			</div>
 

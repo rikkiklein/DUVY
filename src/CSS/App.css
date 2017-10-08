@@ -163,9 +163,15 @@ ul li {
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background-attachment: scroll,								fixed;
+	background-attachment: scroll,fixed;
+	background-color: #101730;
+	background-attachment: scroll, fixed;
+	/*background-image: url("./overlay.png");*/
+	background-position: top left,top left;
+	background-repeat: repeat,no-repeat;
+	background-size: auto, auto 100%;
 	color: rgba(255, 255, 255, 0.5);
-	background: #101730;
+	/*background: #101730;*/
 	height: 100%;
 	left: 0;
 	padding: 8em 4em;
@@ -189,6 +195,13 @@ ul li {
 	font-size: 1.35em;
 	line-height: 1.75em;
 	margin: 0;
+	text-transform: uppercase;
+}
+
+#side-bar i{
+	margin-left: .5em;
+	margin-right: .5em;
+	cursor: pointer;
 }
 
 #side-bar .image.avatar {
@@ -220,12 +233,21 @@ ul li {
 	top: 0;
 	z-index: 10000;
 	border-bottom: solid 2px #efefef;
+	margin: 0em;
+	padding: 0em;
+  display: block;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
 	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 #menu-bar ul li{
-	display: inline;
-	margin: 0em .3em 0em 1em;
+	display: inline-block;
+	margin: 0em .3em 0em .3em;
 	text-align: center;
 }
 
@@ -234,6 +256,7 @@ ul li {
 	-webkit-transition-delay: 0.45s;
 	-ms-transition-delay: 0.45s;
 	transition-delay: 0.45s;
+	margin-left: 0em;
 }
 
 #menu-bar > ul > li:nth-child(2) {
@@ -314,6 +337,7 @@ ul li {
 	justify-content: center;
 	font-size: .8em;
 	text-align: left;
+	line-height: 1.7em;
 }
 
 .res-type{
@@ -336,6 +360,43 @@ ul li {
 	color: black;
 	padding: .5em;
 }
+
+.res-info-title{
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-moz-align-items: -moz-flex-end;
+	-webkit-align-items: -webkit-flex-end;
+	-ms-align-items: -ms-flex-end;
+	align-items: flex-end;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.res-bold{
+	font-weight: bold;
+}
+
+.res-date{
+	text-align: right;
+}
+
+.resume ul{
+	margin-left: 1.5em;
+}
+.resume ul li{
+	list-style-type: disc;
+}
+/*.res-degree{
+	font-style: italic;
+}*/
 
 #education{
 	text-align: center;
