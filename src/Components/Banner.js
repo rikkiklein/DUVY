@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
+import { Parallax, Background } from 'react-parallax';
+import image        from '../CSS/pic1.png';
+import image2        from '../CSS/duvy.jpeg';
 
 class Banner extends Component {
   render() {
     return (
-      <div id="intro">
-        <div className="inner">
-          <h1>David Klein</h1>
-          <h2>Civil Engineer</h2>
-          <a className="button" href="#about">Learn More</a>
-        </div>
-      </div>
+      <div id="side-bar">
+				<div>
+					<div className="image avatar">
+            <img src={image2} alt="" />
+          </div>
+					<h1>David Klein</h1>
+          <a><i className="fa fa-linkedin"></i></a>
+          <a><i className="fa fa-envelope-o"></i></a>
+				</div>
+			</div>
+
     );
   }
 }

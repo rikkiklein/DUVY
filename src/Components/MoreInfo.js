@@ -25,14 +25,15 @@ class MoreInfo extends Component {
 
   render() {
     return (
-      <div id="about" className="resume">
+      <section id="about" className="resume">
+      More Information
         <div className="tabs">
-      <Tabs activeTab={this.state.activeTab} changeTab={this.handleClick.bind(this)}  tabData={tabData} />
-      <div className="padding">
-        <TabContent activeTab={this.state.activeTab} />
-      </div>
-    </div>
-      </div>
+          <Tabs activeTab={this.state.activeTab} changeTab={this.handleClick.bind(this)}  tabData={tabData} />
+          <div className="padding">
+            <TabContent activeTab={this.state.activeTab} />
+          </div>
+        </div>
+      </section>
     );
   }
 }
