@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TabContent           from './TabContent.js';
+import TabContent           from './TabContentResumes.js';
 import Tabs                 from './Tabs.js';
 
 var tabData = [
@@ -25,8 +25,8 @@ class Resume extends Component {
 
   render() {
     return (
-      <section id="Resume" className="resume">
-        Resumes
+      <section id="Resume">
+        <div className="title">Resumes</div>
         <div className="tabs">
           <Tabs activeTab={this.state.activeTab} changeTab={this.handleClick.bind(this)}  tabData={tabData} />
           <div className="padding">

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Projects extends Component {
+class MathResume extends Component {
 
   render() {
     return (
-      <section id="projects">
+      <section id="projects" className="resume">
         <div className="title">Projects</div>
       </section>
     );
   }
 }
 
-export default Projects;
+export default MathResume;

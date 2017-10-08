@@ -63,7 +63,6 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: maroon !important;
 	text-decoration: none;
 }
 
@@ -117,7 +116,6 @@ ul li {
 
 #main > section {
 	border-bottom: solid 2px #efefef;
-	margin: 1em 0 0 0;
 	padding: 1em 0 1em 0;
 }
 
@@ -133,7 +131,7 @@ ul li {
 @media screen and (max-width: 980px) {
 	#main {
 		margin: 0;
-		padding: 6em 4em;
+		padding: 2em 2em;
 		width: 100%;
 	}
 }
@@ -280,7 +278,7 @@ ul li {
 	transition: color 0.2s ease;
 	border: 0;
 	color: rgba(255, 255, 255, 0.35);
-	font-size: 0.6em;
+	font-size: 0.7em;
 	font-weight: bold;
 	letter-spacing: 0.25em;
 	line-height: 1.75;
@@ -297,7 +295,67 @@ ul li {
   color: #233269;
 }
 
+.resume{
+	padding: 2em;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-top: 1em;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	font-size: .8em;
+	text-align: left;
+}
 
+.res-type{
+	color: black;
+	text-align: center;
+	padding-bottom: 1em;
+	font-weight: bold;
+}
+
+.res-title{
+	background: lightgray;
+	color: black;
+	border-top: 1px solid gray;
+	font-size: .9em;
+	padding-left: .5em;
+	width: 100%;
+}
+
+.res-info{
+	color: black;
+	padding: .5em;
+}
+
+#education{
+	text-align: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-moz-align-items: -moz-center;
+	-webkit-align-items: -webkit-center;
+	-ms-align-items: -ms-center;
+	align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
 
 .education-flex{
 	display: -moz-flex;
@@ -316,6 +374,7 @@ ul li {
 	-webkit-justify-content: flex-start;
 	-ms-justify-content: flex-start;
 	justify-content: flex-start;
+	width: 100%;
 }
 
 .pics{
@@ -337,6 +396,7 @@ ul li {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
+	height: 300px;
 }
 
 .info{
@@ -359,10 +419,10 @@ ul li {
 	-webkit-justify-content: flex-start;
 	-ms-justify-content: flex-start;
 	justify-content: flex-start;
+	height: 300px;
 }
 
 .inner-info{
-	height: 150px;
 	font-size: .9em;
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -380,6 +440,22 @@ ul li {
 	-webkit-justify-content: center;
 	-ms-justify-content: center;
 	justify-content: center;
+}
+
+.title{
+	text-align: left;
+	color: #101730;
+	font-size: 0.7em;
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	line-height: 1.75;
+	outline: 0;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
+	display: block;
+	padding-bottom: 1.5em;
 }
 
 #ed-logo{
@@ -440,6 +516,38 @@ img#ed-logo{
 	width: 100%;
 }
 
+ul.nav.nav-tabs li a{
+  background: #fefefe;
+  border: 1px solid lightgray;
+  color: gray;
+  cursor: pointer;
+  font-size: .75em;
+  margin-right: 1em;
+  padding: 1em 2em .75em 2em;
+  text-transform: uppercase;
+  -moz-transition: color 0.2s ease-in-out, background-color 0.2s, background .5s, ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out -moz-transform 2s;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s, background .5s, ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out -webkit-transform 2s;
+  -ms-transition: color 0.2s ease-in-out, background-color 0.2s, background .5s, ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out -ms-transform 2s;
+  transition: color 0.2s ease-in-out, background-color 0.2s, background .5s, ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out transform 2s;
+  -webkit-transition: background .5s, color 2s, border .15s linear, -webkit-transform 2s;
+  transition: background .5s, transform 2s, color 2s, border .15s linear, -webkit-transform 2s;
+}
+
+ul.nav.nav-tabs li a:hover{
+	background: rgba(36,41,67, .374);
+}
+
+ul.nav.nav-tabs li.active a {
+	background: rgba(36,41,67, .74);
+	color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+ul.nav.nav-tabs li.active a:hover {
+	background: rgba(36,41,67, .74);
+}
+
 ul.alt {
 	list-style: none;
 	padding-left: 0;
@@ -466,7 +574,7 @@ ul.alt {
 	#side-bar {
 		background-attachment: scroll;
 		background-position: top left, center center;
-		background-size: auto,		cover;
+		background-size: auto, cover;
 		left: auto;
 		padding: 6em 4em;
 		position: relative;

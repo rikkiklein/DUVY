@@ -25,8 +25,8 @@ class MoreInfo extends Component {
 
   render() {
     return (
-      <section id="about" className="resume">
-      More Information
+      <section id="about">
+        <div className="title">More Info</div>
         <div className="tabs">
           <Tabs activeTab={this.state.activeTab} changeTab={this.handleClick.bind(this)}  tabData={tabData} />
           <div className="padding">
