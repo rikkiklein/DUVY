@@ -391,12 +391,38 @@ ul li {
 .resume ul{
 	margin-left: 1.5em;
 }
+
 .resume ul li{
 	list-style-type: disc;
 }
-/*.res-degree{
-	font-style: italic;
-}*/
+
+
+@media screen and (max-width: 480px) {
+	.res-info-title{
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-align-items: -moz-center;
+		-webkit-align-items: -webkit-center;
+		-ms-align-items: -ms-center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+	}
+	.res-degree{
+		text-align: center;
+	}
+	.res-date{
+		text-align: center;
+	}
+}
 
 #education{
 	text-align: center;

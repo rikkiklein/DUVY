@@ -91,7 +91,7 @@ class EngineerResume extends Component {
           <div className="res-info">
           <div className="res-info-title">
             <span>
-              <span className="res-bold">Chi Epsilon </span> (National Civil Engineering Honor Society) - Tutor
+              <span className="res-bold">Chi Epsilon </span> <br/>(National Civil Engineering Honor Society) - Tutor
             </span>
             <span className="res-date">
               December 2015-Present
@@ -99,7 +99,7 @@ class EngineerResume extends Component {
           </div>
           <div className="res-info-title">
             <span>
-              <span className="res-bold">Tau Beta Pi </span> (National Engineering Honor Society) - Project Creator/Leader -“Tandon: In The Know”
+              <span className="res-bold">Tau Beta Pi </span> <br/>(National Engineering Honor Society) - Project Creator/Leader -“Tandon: In The Know”
             </span>
             <span className="res-date">
               April 2015-Present
