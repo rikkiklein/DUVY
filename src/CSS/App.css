@@ -464,6 +464,29 @@ ul li {
 	width: 100%;
 }
 
+@media screen and (max-width: 736px) {
+	.education-flex{
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-align-items: -moz-center;
+		-webkit-align-items: -webkit-center;
+		-ms-align-items: -ms-center;
+		align-items: center;
+		-moz-justify-content: flex-start;
+		-webkit-justify-content: flex-start;
+		-ms-justify-content: flex-start;
+		justify-content: flex-start;
+		width: 100%;
+	}
+}
+
+
 .pics{
 	width: 20%;
 	text-align: center;
@@ -633,6 +656,14 @@ ul.nav.nav-tabs li.active a {
 
 ul.nav.nav-tabs li.active a:hover {
 	background: rgba(36,41,67, .74);
+}
+
+@media screen and (max-width: 736px) {
+	ul.nav.nav-tabs li a{
+	  font-size: .7em;
+	  margin-right: .2em;
+	  padding: 1em .8em .75em .8em;
+	}
 }
 
 ul.alt {
