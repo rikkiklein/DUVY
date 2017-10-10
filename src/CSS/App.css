@@ -57,14 +57,16 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-	color: #233269;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom-color: transparent;
 	text-decoration: none;
+	color: #ff6666;
 }
+
 
 a i{
 	color: gray;
@@ -179,6 +181,7 @@ ul li {
 	text-align: right;
 	top: 0;
 	width: 35%;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 #side-bar > * {
@@ -204,6 +207,10 @@ ul li {
 	cursor: pointer;
 }
 
+#side-bar i a{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
 #side-bar .image.avatar {
 	margin: 0 0 1em 0;
 	width: 8.25em;
@@ -222,6 +229,48 @@ ul li {
 @media screen and (max-width: 480px) {
 	#side-bar {
 		padding: 4.5em 1.5em;
+	}
+}
+
+.contact-flex{
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-moz-align-items: -moz-flex-start;
+	-webkit-align-items: -webkit-flex-start;
+	-ms-align-items: -ms-flex-start;
+	align-items: flex-start;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	text-align: center;
+	padding-left: 1em;
+}
+
+@media screen and (max-width: 980px){
+	.contact-flex{
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-moz-align-items: -moz-center;
+		-webkit-align-items: -webkit-center;
+		-ms-align-items: -ms-center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
 	}
 }
 
@@ -247,7 +296,7 @@ ul li {
 
 #menu-bar ul li{
 	display: inline-block;
-	margin: 0em .3em 0em .3em;
+	margin: 0em 1em 0em 1em;
 	text-align: center;
 }
 

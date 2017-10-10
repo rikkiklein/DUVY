@@ -4,8 +4,8 @@ class EngineerResume extends Component {
 
   render() {
     return (
-      <section id="projects" className="resume">
-        <div className="res-type">DAVID KLEIN EIT</div>
+      <section id="resume" className="resume">
+        <div className="res-type">DAVID KLEIN, EIT</div>
         <div className="res-title">EDUCATION</div>
         <div className="res-info">
           <div className="res-info-title">
@@ -38,7 +38,7 @@ class EngineerResume extends Component {
           </ul>
           <div className="res-bold">Senior Civil Design Project:</div>
           <ul>
-            <li>Voted Design Team Leader by peers</li>
+            <li>Voted design team leader by peers</li>
             <li>Coordinated with the project CM to design and prepare a complete site development package</li>
             <li>Grading, drainage, stormwater management, wastewater/water supply, street design, sediment & erosion control</li>
           </ul>

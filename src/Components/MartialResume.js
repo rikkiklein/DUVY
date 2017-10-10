@@ -4,7 +4,7 @@ class MartialResume extends Component {
 
   render() {
     return (
-      <section className="resume">
+      <section id="resume" className="resume">
       <div className="res-type">SENSEI DAVID KLEIN </div>
       <div className="res-title">EDUCATION</div>
       <div className="res-info">

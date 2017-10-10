@@ -8,7 +8,6 @@ class MenuBar extends Component {
 					<li><a href="#resume">Resumes</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">More Info</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>

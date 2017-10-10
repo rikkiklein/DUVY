@@ -25,7 +25,7 @@ class Resume extends Component {
 
   render() {
     return (
-      <section id="Resume">
+      <section id="resume">
         <div className="title">Resumes</div>
         <div className="tabs">
           <Tabs activeTab={this.state.activeTab} changeTab={this.handleClick.bind(this)}  tabData={tabData} />
