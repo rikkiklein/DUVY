@@ -5,7 +5,7 @@ class MathResume extends Component {
   render() {
     return (
       <section id="resume" className="resume">
-        <div className="res-type">DAVID KLEIN, EIT</div>
+        <div className="res-type">DAVID KLEIN</div>
         <div className="res-title">EDUCATION</div>
         <div className="res-info">
           <div className="res-info-title">
@@ -15,7 +15,7 @@ class MathResume extends Component {
             </span>
             <span className="res-date">
               Brooklyn, New York <br/>
-              ****Need Date!!***
+              September 2009-May 2012
             </span>
           </div>
           <div className="res-degree">
